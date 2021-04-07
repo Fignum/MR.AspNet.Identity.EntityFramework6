@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Identifier that must be unique within the hosting gallery -->
+        <id>Fignum.MR.AspNet.Identity.EntityFramework6</id>
+
+        <!-- Package version number that is used when resolving dependencies -->
+        <version>1.0.0</version>
+
+        <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+        <description>EntityFramework 6 provider + InMemory providers for Asp.Net Core Identity.</description>
+
+
+        <!-- Dependencies are automatically installed when the package is installed -->
+        <dependencies>
+            <dependency id="Microsoft.Extensions.DependencyInjection" version="2.0.0" />
+            <dependency id="Microsoft.Extensions.Identity.Core" version="2.0.0" />
+            <dependency id="EntityFramework" version="6.4.4" />
+        </dependencies>
+    </metadata>
+</package>

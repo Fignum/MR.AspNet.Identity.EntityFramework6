@@ -10,12 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		Fignum.MR.AspNet.Identity.EntityFramework6.nuspec = Fignum.MR.AspNet.Identity.EntityFramework6.nuspec
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{30CB62A8-0B95-4AD1-88CB-6CAC8004DDE4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MR.AspNet.Identity.EntityFramework6", "src\MR.AspNet.Identity.EntityFramework6\MR.AspNet.Identity.EntityFramework6.csproj", "{DD224495-5E7D-42B7-B10D-02D1C511B797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fignum.MR.AspNet.Identity.EntityFramework6", "src\MR.AspNet.Identity.EntityFramework6\Fignum.MR.AspNet.Identity.EntityFramework6.csproj", "{DD224495-5E7D-42B7-B10D-02D1C511B797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
