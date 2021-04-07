@@ -29,13 +29,17 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: NuGetCommand@2
+  displayName: 'NuGet Pack'
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
     versioningScheme: 'off'
     buildProperties: 'id=Fignum.MR.AspNet.Identity.EntityFramework6'
 
+- task: NuGetAuthenticate@0
+  displayName: 'NuGet Authenticate'
 - task: NuGetCommand@2
+  displayName: 'NuGet Push'
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
